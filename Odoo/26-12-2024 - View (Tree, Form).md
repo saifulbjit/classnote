@@ -1,0 +1,30 @@
+- All views are instance of `ir.ui.view`
+- View types: [Docs](https://www.odoo.com/documentation/17.0/developer/reference/user_interface/view_records.html#view-types)
+	- Search View:
+		- multiple field search
+- View Syntax:
+	- `record` tag
+		- Field tag (e.g. `tree`)
+			- `field`
+				- optional attribute
+				- widgets
+					- `many2many_tags`
+					- color: `options={"color_field": '<model color field>'}`.
+						- color field value range: 1 -> 11
+				- options:
+					- `currency_field` (the currency_id field must be as a field)
+					- `column_invisible="<bool>"`
+				- `invisible`: boolean
+					- if True, then the column appears but not the values
+					- if False, then the column and value appears
+					- works differently in form view
+				- `decoration-<style>`
+			- `editable` : string ("top", "bottom")
+			- `open_form_View`: combining editable and form view
+			- `default_order`
+			- overriding default in view
+			- `handle` for sequence
+			- FORM:
+				- `group`
+				- Tab
+	- place before action records
