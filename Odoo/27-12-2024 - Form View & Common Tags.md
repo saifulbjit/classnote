@@ -1,0 +1,33 @@
+- gt, lt operator in XML
+> [!tip] Inspecting View Architecture
+> Turn on debug and go to Edit View
+- Tree:
+	- `limit=<int>`
+- Form view:
+	- `string` overriding
+	- `placeholder`
+	- changing color index from the UI
+	- `help`
+	- `options`
+		- `no_create`, `no_quick_create`, `no_create_edit`, `no_open`
+		- `accepted_file_extensions` for Image and file field
+	- `readonly`
+	- `required`
+	- `invisible`
+	- Groups
+	- `context`
+- Common Tags:
+	- `newline`
+	- `separator`
+	- `header`
+		- `statusbar` widget:
+			- `statusbar_visible` (it shows the current state even if the current state not in this list)
+	- `sheet`
+	- `notebook`:
+		- `page`
+			- `name` for view inheritance
+			- `tree` in it
+- Button:
+	- Object Type
+		- `ensure_one()` in the action function for forms
+		- visibility and groups
