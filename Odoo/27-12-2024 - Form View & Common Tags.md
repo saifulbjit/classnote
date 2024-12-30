@@ -21,7 +21,9 @@
 	- `separator`
 	- `header`
 		- `statusbar` widget:
-			- `statusbar_visible` (it shows the current state even if the current state not in this list)
+			- `statusbar_visible` 
+				- specify fields which is always visible
+				- (it shows the current state even if the current state not in this list)
 	- `sheet`
 	- `notebook`:
 		- `page`
