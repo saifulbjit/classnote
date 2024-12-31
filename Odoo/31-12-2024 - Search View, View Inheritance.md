@@ -1,0 +1,23 @@
+- Dynamic Domain:
+	- in a m2m computed field
+- View inheritance (Extension):
+	- mode
+	- xpath
+		- expr
+		- attribute selector
+		- position: defines the operation
+			- inside: appends
+			- after
+- default:
+	- priority: 16
+	- mode: extension
+- Search View:
+	- default: `name_search`
+	- domain
+	- opearator
+	- filters
+	- group_by
+	- searchpanel
+		- for m2o and selection
+	- `search_default_<filter id>`
+	- 
