@@ -1,0 +1,14 @@
+- Sub template
+	- can use variables from parent template
+- dynamic attribue:
+	- `t-att-<attribute name>`
+	- `t-attf-<attribute name>`
+		- jinja style `{{}}`
+		- ruby style `#{}`
+	- `t-att={}` - items of the dict is rendered as attribute and values
+- Inheritance
+	- `inherit_id` and `id` is required in the template
+	- xpath:
+		- contains >> hasclass
+- `image-data-uri`
+- static image specify: `src=module_name/path/to/image`
