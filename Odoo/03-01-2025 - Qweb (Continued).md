@@ -10,5 +10,5 @@
 	- `inherit_id` and `id` is required in the template
 	- xpath:
 		- contains >> hasclass
-- `image-data-uri`
+- `image_data_uri`
 - static image specify: `src=module_name/path/to/image`

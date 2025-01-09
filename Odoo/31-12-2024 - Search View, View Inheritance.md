@@ -16,8 +16,9 @@
 	- domain
 	- opearator
 	- filters
+		- define `filter` in a `group`
 	- group_by
 	- searchpanel
 		- for m2o and selection
-	- `search_default_<filter id>`
+	- set context `search_default_<filter id>` in window action
 	- 
