@@ -1,0 +1,6 @@
+- on demand cloud
+- load on computing resources
+- ensure max usage of computing resources
+- resource sharing among companies
+- public cloud
+- community cloud
