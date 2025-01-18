@@ -1,7 +1,7 @@
 >[!tip] `onchage` performs operation in a temporary recordset
 
 
-- Odoo fields Command:
+- #### Odoo fields Command:
 	- [Docs](https://www.odoo.com/documentation/17.0/developer/reference/backend/orm.html#odoo.fields.Command)
 	- **CREATE** (0)
 		- example: create default objects
@@ -13,6 +13,8 @@
 	- **DELETE & UNLINK**:
 		- example: deleting related objects in a m2m field
 			- overriding `unlink` and calling `write` with command list
+
+- #### ORM methods
 	- `read()` orm method:
 		- normally not used
 	- `_rec_name_search` meta attribute

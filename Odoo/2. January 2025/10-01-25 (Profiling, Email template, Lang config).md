@@ -1,8 +1,8 @@
-#### Profiling
+- #### Profiling
 	- for as low time as possible
 	- open
 
-- Email template:
+- #### Email template:
 	- model: `mail.template`
 	- dynamic value
 	- view template from templates in Technical menu
@@ -18,4 +18,4 @@
 	- [Tutorial](https://www.cybrosys.com/blog/how-to-configure-outgoing-and-incoming-mail-servers-in-odoo-17)
 
 - lang config export and use
-- 
+	- `.po` file
