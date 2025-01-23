@@ -1,0 +1,23 @@
+- define automated action
+- settings page:
+	- `config_parameter` in field
+- sequence field:
+	- record for a `ir.sequence` model
+	- define a char field for the target model
+		- index = trigram
+		- default value with i18n
+		- check and replace in create
+- default value in context
+- search_default_*
+	- default activated filter
+- group_by:
+	- set default group
+- context in a m2o field
+	- `active_test` (default is True)
+		- view [example](https://github.com/shamim-hossen-razu/school_management/commit/de5f181ae5b82307c1bcd5b652915ae0794de7a0)
+- tree_view_ref, form_view_ref in context
+	- [example](https://github.com/shamim-hossen-razu/school_management/commit/6f1b08849baebdd7f87c2c9080ea813eec7a9c96)
+- `show_address` context for a m2o field with `res.parter`
+- validate filesize with `bin_size` 
+	- `self.with_context(bin_size=True)` to get the file_size
+- 
