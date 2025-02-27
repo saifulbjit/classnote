@@ -8,7 +8,7 @@
 		- default value with i18n
 		- check and replace in create
 - default value in context
-- search_default_*
+- `search_default_*`
 	- default activated filter
 - group_by:
 	- set default group
